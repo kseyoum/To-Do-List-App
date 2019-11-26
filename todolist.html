@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDoList</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/fe922e7a97.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+</head>
+<body class= "browser">
+	<div class="weatherCon">
+		<p class="weatherInfo">
+			Today's weather in Los Angeles: 70Degs Clear sky. Feels like 70.1Degs
+		</p>
+	</div>
+
+	<br>
+
+	<div class="todolistCon">
+		<h1 class="todolistHeader">To Do List</h1>
+
+		<form  method="" class="addItem" id="add-form" >
+		<div class="form-row">
+			<div class="addBar">
+				<div class="addList">
+					<p><strong>+</strong></p>
+				</div>
+				<div class="search-bar">
+					<input type="text" name="search" class="form-control" id="add-id" placeholder="Add to-do item here!" >
+				</div>
+				
+			</div>
+		</div>
+		</form>
+
+		<ul class="list">
+			<li class="listItem">
+				<i class="fas fa-check"></i>
+				<p class="listText">Study for ITP 303 midterm</p>
+			</li>
+			<li class="listItem">
+				<i class="fas fa-check"></i>
+				<p class="listText">Call mom and dad</p>
+			</li>
+			<li class="listItem">
+				<i class="fas fa-check"></i>
+				<p class="listText">Apply and go to techstars event</p>
+			</li>
+			<li class="listItem">
+				<i class="fas fa-check"></i>
+				<p class="listText">Work on own work</p>
+			</li>
+		</ul>
+	</div>
+
+
+<script
+	src="http://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

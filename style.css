@@ -1,0 +1,68 @@
+.weatherCon
+{
+	border-style: solid;
+	border-color: black;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.todolistCon
+{
+	border-style: solid;
+	border-color: black;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+.list
+{ list-style-type: none;
+}
+.listItem p
+{
+	display:inline;
+}
+.through
+{
+	color: red;
+	text-decoration: line-through;
+}
+
+.list
+{
+	font-family:  'Playfair Display', serif;
+
+}
+.todolistHeader
+{
+	font-family:  'Playfair Display', serif;
+}
+.weatherInfo
+{
+	font-family:  'Playfair Display', serif;
+}
+.weatherCon
+{
+	background-color: darksalmon;
+}
+.browser
+{
+	background-color: cadetblue;
+}
+.listItem:hover
+{
+	background-color: burlywood;
+
+}
+.addList p
+{
+	font-size: 30px;
+	display: inline;
+}
+
+
+
+
+
